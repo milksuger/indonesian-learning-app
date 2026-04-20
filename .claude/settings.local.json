@@ -22,7 +22,8 @@
       "Bash(xargs grep *)",
       "Bash(./mvnw compile *)",
       "mcp__plugin_ecc_exa__web_search_exa",
-      "Bash(1)"
+      "Bash(1)",
+      "mcp__plugin_ecc_github__create_repository"
     ]
   }
 }
