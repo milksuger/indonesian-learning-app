@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(mvn test *)",
+      "Bash(npm install *)",
+      "Bash(npx vitest *)",
+      "Bash(mvn compile *)",
+      "Bash(npm run *)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(mvn org.springframework.boot:spring-boot-maven-plugin:3.2.12:run)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill *)",
+      "Bash(cmd *)",
+      "Bash(powershell *)",
+      "Bash(curl *)",
+      "Bash(findstr :8080)",
+      "Bash(mvn *)",
+      "Bash(jps -l)",
+      "Bash(tail *)",
+      "Bash(npm create *)",
+      "Bash(xargs grep *)",
+      "Bash(./mvnw compile *)",
+      "mcp__plugin_ecc_exa__web_search_exa",
+      "Bash(1)"
+    ]
+  }
+}

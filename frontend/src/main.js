@@ -1,0 +1,15 @@
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import App from './App.vue'
+import router from './router/index.js'
+import i18n from './i18n/index.js'
+
+/**
+ * 应用入口文件
+ * 挂载 Vue 应用并注册 Pinia、Router、i18n 插件
+ */
+const app = createApp(App)
+app.use(createPinia())
+app.use(router)
+app.use(i18n)
+app.mount('#app')

@@ -1,0 +1,38 @@
+# 环境变量（包含敏感信息）
+.env
+
+# 前端依赖和构建产物
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+frontend-admin/node_modules/
+frontend-admin/dist/
+frontend-admin/.vite/
+
+# 后端构建产物和依赖
+backend/target/
+backend/.jqwik-database
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 测试覆盖率
+backend/target/site/jacoco/
+coverage/
+
+# 临时文件
+*.tmp
+*.temp
